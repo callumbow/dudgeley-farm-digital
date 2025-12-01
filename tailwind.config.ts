@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        sage: "hsl(var(--sage))",
+        cream: "hsl(var(--cream))",
+        terracotta: "hsl(var(--terracotta))",
+        "warm-brown": "hsl(var(--warm-brown))",
+        "earth-dark": "hsl(var(--earth-dark))",
+      },
+      fontFamily: {
+        display: ["Playfair Display", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        medium: "var(--shadow-medium)",
       },
       borderRadius: {
         lg: "var(--radius)",
